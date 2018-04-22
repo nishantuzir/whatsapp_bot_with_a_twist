@@ -21,7 +21,7 @@ def send_message(t,w,n,c,f):
 	user = driver.find_element_by_xpath('//span[@title = "{}"]'.format(name))
 	user.click()
 
-	input_path = '//div[@class="_2S1VP copyable-text selectable-text"][@data-tab="1"]'
+	input_path = '//div[@class="_2S1VP copyable-text selectable-text"][@data-tab="1"]'#change the div class valu here
 	
 	msg_box = wait.until(EC.presence_of_element_located((By.XPATH,input_path)))
 	for k in lists:
@@ -40,13 +40,6 @@ if __name__ == "__main__":
 	args = parser.parse_args()
 	if args.name:
 		send_message(args.time_out,args.wait,args.name,args.chrome,args.file)
-	#elif args.wait:
-	#	send_message(args.time_out,args.wait,args.name)
-	#elif args.name:
-	#	send_message(args.time_out,args.wait,args.name,args.divclass)
-	#elif args.divclass:
-	#	send_message(args.time_out,args.wait,args.name,args.divclass)
-
 	else:
 		parser.print_help()
 
