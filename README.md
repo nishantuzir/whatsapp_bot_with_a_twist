@@ -10,7 +10,13 @@ After executing the code, the WhatsApp web page opens and the users is required 
 
 CHANGES TO BE MADE BEFORE USAGE:
 --------------------------------
-In line 24, 2S1VP copyable-text selectable-text needs to be changed in input_path = '//div[@class="2S1VP copyable-text selectable-text"][@data-tab="1"]'. The user needs to replace it with his/her div class id value. This div class value can be found by pointing at the WhatsApp web text bar running in Google Chrome and then inspecting element. The div class id value that is displayed, needs to be used in place of the value that has been provided in the code. 
+In line 24, 2S1VP copyable-text selectable-text needs to be changed in input_path = '//div[@class="2S1VP copyable-text selectable-text"][@data-tab="1"]'. The user needs to replace it with his/her div class id value. This div class value can be found by pointing at the WhatsApp web text bar running in Google Chrome and then inspecting element. 
+
+![alt text](https://github.com/nishantuzir/automated_whatsapp_message_sender/blob/master/inspect.png)
+
+The div class id value that is displayed, needs to be used in place of the value that has been provided in the code. 
+
+![alt text](https://github.com/nishantuzir/automated_whatsapp_message_sender/blob/master/divclass.png)
 
 USAGE:
 ------
