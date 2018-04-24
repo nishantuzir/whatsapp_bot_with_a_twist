@@ -18,7 +18,7 @@ if you need help, the following command would be useful:
 
 $ python3 ./send_msg.py -h
 
-PS: timeout is in seconds and default value is 10.00 
+PS: timeout is in seconds and default value is 90.00 
 
 DEPENDENCY:
 -----------
@@ -30,7 +30,7 @@ Chromedriver.exe
 
 PACKAGES:
 ---------
-The packages required for running the flowmeter, are provided in the 'requirements.txt' file.
+The package required for running the flowmeter, are provided in the 'requirements.txt' file.
 
 The following python packages will be already be installed with the python3.x distibutions, if not, kindly install them:
 
@@ -38,12 +38,8 @@ The following python packages will be already be installed with the python3.x di
 
 2.pathlib
 
-3.json
+3.sys
 
-4.sys
+4.argparse
 
-5.argparse
-
-6.datetime
-
-7.time
+5.time
