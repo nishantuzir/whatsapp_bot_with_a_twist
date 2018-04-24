@@ -10,21 +10,13 @@ After executing the code, the WhatsApp web page opens and the users is required 
 
 USAGE:
 ------
-$ python3 ./janf.py -p ./sample/testing.pcap -t 1.00    
+$ python3 ./send_msg.py -p ./sample/testing.pcap -t 1.00    
 OR    
-$ python3 ./janf.py -pcap ./sample/testing.pcap -t 1.00
-
-
-
-$ python3 ./loop_folder.py -f ./sample -t 0.01   
-OR    
-$ python3 ./loop_folder.py -folder ./sample -t 0.01
-
-
+$ python3 ./send_msg.py -pcap ./sample/testing.pcap -t 1.00
 
 if you need help, the following command would be useful:
 
-$ python3 ./janf.py -h
+$ python3 ./send_msg.py -h
 
 PS: timeout is in seconds and default value is 10.00 
 
@@ -32,7 +24,9 @@ DEPENDENCY:
 -----------
 python3.x
 
-tshark 2.4.x
+Google Chrome v65.x.x.x.x
+
+Chromedriver.exe
 
 PACKAGES:
 ---------
