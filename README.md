@@ -54,7 +54,7 @@ Chromedriver.exe
 
 PACKAGES:
 ---------
-The package required for running the flowmeter, are provided in the 'requirements.txt' file.
+The package required for running the module, are provided in the 'requirements.txt' file.
 
 The following python packages will be already be installed with the python3.x distibutions, if not, kindly install them:
 
