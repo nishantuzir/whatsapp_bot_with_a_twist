@@ -20,15 +20,15 @@ The div class id value that is displayed, needs to be used in place of the value
 
 USAGE:
 ------
-$ python3 ./send_msg.py -t 1.00 -w 100.00 -n 'John Doe' -c /home/user/chromedriver -f /home/user/msg.txt
+    $ python3 ./send_msg.py -t 1.00 -w 100.00 -n 'John Doe' -c /home/user/chromedriver -f /home/user/msg.txt
 
 OR    
 
-$ python3 ./send_msg.py --time_out 1.00 --wait 100.00 --name 'John Doe' --chrome /home/user/chromedriver --file /home/user/msg.txt
+    $ python3 ./send_msg.py --time_out 1.00 --wait 100.00 --name 'John Doe' --chrome /home/user/chromedriver --file /home/user/msg.txt
 
 if you need help, the following command would be useful:
 
-$ python3 ./send_msg.py -h
+    $ python3 ./send_msg.py -h
 
 PS: time_out and wait are in seconds and default values are 2.00 and 90.00 respectively. Even though chromedrive is an executable file, it is not required to add the '.exe' in 'chromedriver' in case of Linux and Mac
 
@@ -46,11 +46,11 @@ ARGUMENT MEANINGS:
 
 DEPENDENCY:
 -----------
-python3.x
+* python3.x
 
-Google Chrome v65.x.x.x.x
+* Google Chrome v65.x.x.x.x
 
-Chromedriver.exe
+* Chromedriver.exe
 
 PACKAGES:
 ---------
@@ -58,12 +58,12 @@ The package required for running the module, are provided in the 'requirements.t
 
 The following python packages will be already be installed with the python3.x distibutions, if not, kindly install them:
 
-1.os
+* os
 
-2.pathlib
+* pathlib
 
-3.sys
+* sys
 
-4.argparse
+* argparse
 
-5.time
+* time
